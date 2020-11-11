@@ -1,12 +1,12 @@
-### 16.04.7.1 ISO image built on 2020/08/18
+### 16.04.5.3 ISO image built on 2018/10/10
 
 ### Download and Verify
 
-16.04.7.1 ISO image:  
-https://download.securityonion.net/file/Security-Onion-16/securityonion-16.04.7.1.iso
+16.04.5.3 ISO image:  
+https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.3_20181010/securityonion-16.04.5.3.iso
 
 Signature for ISO image:  
-https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-16.04.7.1.iso.sig  
+https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-16.04.5.3.iso.sig  
 
 Signing key:  
 https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS  
@@ -25,22 +25,22 @@ gpg --import KEYS
 
 Download the signature file for the ISO:  
 ```
-wget https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-16.04.7.1.iso.sig
+wget https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-16.04.5.3.iso.sig
 ```
 
 Download the ISO image:  
 ```
-wget https://download.securityonion.net/file/Security-Onion-16/securityonion-16.04.7.1.iso
+wget https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.3_20181010/securityonion-16.04.5.3.iso
 ```
 
 Verify the downloaded ISO image using the signature file:  
 ```
-gpg --verify securityonion-16.04.7.1.iso.sig securityonion-16.04.7.1.iso
+gpg --verify securityonion-16.04.5.3.iso.sig securityonion-16.04.5.3.iso
 ```
 
 The output should show "Good signature" and the Primary key fingerprint should match what's shown below:
 ```
-gpg: Signature made Tue 18 Aug 2020 04:26:43 PM EDT using RSA key ID ED6CF680
+gpg: Signature made Wed 10 Oct 2018 09:09:19 AM EDT using RSA key ID ED6CF680
 gpg: Good signature from "Doug Burks <doug.burks@gmail.com>"
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
@@ -48,4 +48,4 @@ Primary key fingerprint: BD56 2813 E345 A068 5FBB  91D3 788F 62F8 ED6C F680
 ```
 
 Once you've verified the ISO image, you're ready to proceed to our Installation guide:  
-https://securityonion.net/docs/Installation
+https://github.com/Security-Onion-Solutions/security-onion/wiki/Installation
